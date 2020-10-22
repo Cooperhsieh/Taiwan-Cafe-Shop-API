@@ -15,6 +15,11 @@
 		DB5098772540217E00A7AC92 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB5098752540217E00A7AC92 /* LaunchScreen.storyboard */; };
 		DB5098822540217E00A7AC92 /* Cafe_in_Taiwan_APITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB5098812540217E00A7AC92 /* Cafe_in_Taiwan_APITests.swift */; };
 		DB50988D2540217E00A7AC92 /* Cafe_in_Taiwan_APIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB50988C2540217E00A7AC92 /* Cafe_in_Taiwan_APIUITests.swift */; };
+		DB50989E254022C700A7AC92 /* CoffeeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB50989D254022C700A7AC92 /* CoffeeTableViewCell.swift */; };
+		DB5098A32540231200A7AC92 /* CoffeeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB5098A22540231200A7AC92 /* CoffeeTableViewController.swift */; };
+		DB5098A8254023C400A7AC92 /* Coffee.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB5098A7254023C400A7AC92 /* Coffee.swift */; };
+		DB5098AE25405AE700A7AC92 /* CoffeeDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB5098AD25405AE700A7AC92 /* CoffeeDetailViewController.swift */; };
+		DBB565D72541772400CD29E9 /* LaunchScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB565D62541772400CD29E9 /* LaunchScreenViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +54,11 @@
 		DB5098882540217E00A7AC92 /* Cafe_in_Taiwan_APIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Cafe_in_Taiwan_APIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB50988C2540217E00A7AC92 /* Cafe_in_Taiwan_APIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cafe_in_Taiwan_APIUITests.swift; sourceTree = "<group>"; };
 		DB50988E2540217E00A7AC92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB50989D254022C700A7AC92 /* CoffeeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeTableViewCell.swift; sourceTree = "<group>"; };
+		DB5098A22540231200A7AC92 /* CoffeeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeTableViewController.swift; sourceTree = "<group>"; };
+		DB5098A7254023C400A7AC92 /* Coffee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coffee.swift; sourceTree = "<group>"; };
+		DB5098AD25405AE700A7AC92 /* CoffeeDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeDetailViewController.swift; sourceTree = "<group>"; };
+		DBB565D62541772400CD29E9 /* LaunchScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchScreenViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,8 +113,13 @@
 				DB50986C2540217C00A7AC92 /* SceneDelegate.swift */,
 				DB50986E2540217C00A7AC92 /* ViewController.swift */,
 				DB5098702540217C00A7AC92 /* Main.storyboard */,
+				DB5098AD25405AE700A7AC92 /* CoffeeDetailViewController.swift */,
+				DB5098A7254023C400A7AC92 /* Coffee.swift */,
+				DB5098A22540231200A7AC92 /* CoffeeTableViewController.swift */,
+				DB50989D254022C700A7AC92 /* CoffeeTableViewCell.swift */,
 				DB5098732540217E00A7AC92 /* Assets.xcassets */,
 				DB5098752540217E00A7AC92 /* LaunchScreen.storyboard */,
+				DBB565D62541772400CD29E9 /* LaunchScreenViewController.swift */,
 				DB5098782540217E00A7AC92 /* Info.plist */,
 			);
 			path = Cafe_in_Taiwan_API;
@@ -258,9 +273,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB5098A32540231200A7AC92 /* CoffeeTableViewController.swift in Sources */,
 				DB50986F2540217C00A7AC92 /* ViewController.swift in Sources */,
+				DBB565D72541772400CD29E9 /* LaunchScreenViewController.swift in Sources */,
 				DB50986B2540217C00A7AC92 /* AppDelegate.swift in Sources */,
 				DB50986D2540217C00A7AC92 /* SceneDelegate.swift in Sources */,
+				DB50989E254022C700A7AC92 /* CoffeeTableViewCell.swift in Sources */,
+				DB5098AE25405AE700A7AC92 /* CoffeeDetailViewController.swift in Sources */,
+				DB5098A8254023C400A7AC92 /* Coffee.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
